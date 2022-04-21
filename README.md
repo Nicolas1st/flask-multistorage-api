@@ -26,6 +26,7 @@
 ## Description
 
 Simple CRUD Api with browser interface
+
 Operations supported:
 - Get user/users
 - Create user
@@ -54,7 +55,7 @@ Operations supported:
 4) Download the dependencies:
 
    ```sh
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 5) Run the application
