@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for _, u in users %}
+        {% set id = u['id'] | string() %}
+        <div>
+            <a href={{"/users/" + id + "/remove/"}}> Remove User </a>
+            <a href={{"/users/" + id + "/update/"}}> Update User </a>
+            <p> {{ u["id"] }} </p>
+            <p> {{ u["name"] }} </p>
+            <p> {{ u["surname"] }} </p>
+            <p> {{ u["age"] }} </p>
+        </div>
+        <br>
+    {% endfor %}
+{% endblock content %}
