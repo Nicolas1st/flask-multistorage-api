@@ -2,7 +2,7 @@
 
 ## Structure
 
-- [api](./api)
+- [server](./server)
 
   Contains the app's api
 
